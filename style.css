@@ -1,0 +1,71 @@
+body
+{
+
+    background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vh; 
+}
+
+header
+{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-family: Dosis, Arial, sans-serif;  
+	text-align: center; 
+	font-size: 18px;
+}
+
+h1
+{
+	color: SkyBlue; 
+}
+
+h4
+{
+	color: Tomato;
+}
+
+h6 
+{
+	color: Gray;
+	padding-bottom: 3px; 
+	padding-right: 15px;
+	border-style: solid;
+	border-width: 1px; 
+	border-color: Gray; 
+}
+
+a
+{
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-weight: 700;
+	text-transform: uppercase; 
+	font-size: 18px;
+	color: Wheat;
+}
+
+
+
+a:hover 
+{
+	font-size: 19px;
+}
+
+a:visited
+{
+	color: Wheat;
+}
+
+a:active
+
+{
+	color: FloralWhite;
+}
+
